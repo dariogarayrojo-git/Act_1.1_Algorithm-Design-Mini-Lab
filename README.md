@@ -50,15 +50,6 @@ g++ -std=c++17 -O2 -Wall -Wextra -pedantic main.cpp -o main
 ./main < tests/t1.in
 ```
 
-Each folder includes a `tests/run_tests.sh` script that compiles and runs
-the 3 test cases for that problem automatically:
-
-```bash
-bash problemA_inversions/tests/run_tests.sh
-bash problemB_rooms/tests/run_tests.sh
-bash problemC_knapsack/tests/run_tests.sh
-```
-
 ## Assumptions
 
 - `long long` (64-bit) is used for any value that could exceed the range of

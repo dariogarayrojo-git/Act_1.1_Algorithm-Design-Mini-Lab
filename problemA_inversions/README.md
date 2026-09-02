@@ -1,33 +1,33 @@
 # Problem A — Inversion Counter
 
-## Compilar
+## Compile
 ```bash
 g++ -std=c++17 -O2 -Wall -Wextra -pedantic main.cpp -o main
 ```
 
-## Ejecutar
+## Run
 ```bash
 ./main < input.txt
 ```
 
-## Formato de entrada
+## Input format
 ```
 n
 a1 a2 ... an
 ```
 
-## Formato de salida
+## Output format
 ```
 inv
 ```
 
-## Ejemplo
+## Example
 ```
 $ echo "5
 2 4 1 3 5" | ./main
 3
 ```
 
-## Pruebas
-Ver carpeta `tests/` (3 casos: ejemplo del enunciado, arreglo ordenado, arreglo
-en orden inverso). Ejecutar `bash tests/run_tests.sh`.
+## Tests
+See the `tests/` folder (3 cases: the example from the assignment, a sorted
+array, a reverse-sorted array). Run `bash tests/run_tests.sh`.

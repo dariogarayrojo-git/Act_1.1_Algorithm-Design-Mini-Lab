@@ -1,16 +1,16 @@
 # Problem C — Budgeted Study Plan (0/1 Knapsack)
 
-## Compilar
+## Compile
 ```bash
 g++ -std=c++17 -O2 -Wall -Wextra -pedantic main.cpp -o main
 ```
 
-## Ejecutar
+## Run
 ```bash
 ./main < input.txt
 ```
 
-## Formato de entrada
+## Input format
 ```
 n T
 t1 v1
@@ -19,12 +19,12 @@ t2 v2
 tn vn
 ```
 
-## Formato de salida
+## Output format
 ```
 best
 ```
 
-## Ejemplo
+## Example
 ```
 $ echo "3 10
 3 4
@@ -33,5 +33,5 @@ $ echo "3 10
 14
 ```
 
-## Pruebas
-Ver carpeta `tests/`. Ejecutar `bash tests/run_tests.sh`.
+## Tests
+See the `tests/` folder. Run `bash tests/run_tests.sh`.

@@ -1,16 +1,16 @@
 # Problem B — Minimum Meeting Rooms
 
-## Compilar
+## Compile
 ```bash
 g++ -std=c++17 -O2 -Wall -Wextra -pedantic main.cpp -o main
 ```
 
-## Ejecutar
+## Run
 ```bash
 ./main < input.txt
 ```
 
-## Formato de entrada
+## Input format
 ```
 m
 s1 e1
@@ -19,12 +19,12 @@ s2 e2
 sm em
 ```
 
-## Formato de salida
+## Output format
 ```
 rooms
 ```
 
-## Ejemplo
+## Example
 ```
 $ echo "3
 0 30
@@ -33,5 +33,5 @@ $ echo "3
 2
 ```
 
-## Pruebas
-Ver carpeta `tests/`. Ejecutar `bash tests/run_tests.sh`.
+## Tests
+See the `tests/` folder. Run `bash tests/run_tests.sh`.

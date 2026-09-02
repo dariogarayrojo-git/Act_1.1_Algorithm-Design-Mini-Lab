@@ -49,6 +49,12 @@ cd ../problemC_knapsack
 g++ -std=c++17 -O2 -Wall -Wextra -pedantic main.cpp -o main
 ./main < tests/t1.in
 ```
+or (on each problem)
+```bash
+Get-Content tests\t1.in | .\main.exe
+Get-Content tests\t2.in | .\main.exe
+Get-Content tests\t3.in | .\main.exe
+```
 
 ## Assumptions
 
